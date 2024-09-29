@@ -32,7 +32,7 @@
  * ----------------------------------------------------------------------------------
  */
 
- var dataset = ee.FeatureCollection("projects/ee-maumassant/assets/denudation_all_features");
+var dataset = ee.FeatureCollection("projects/ee-maumassant/assets/denudation_all_features");
 var sample = dataset;
 sample = dataset.randomColumn();
 var split = 0.8;
